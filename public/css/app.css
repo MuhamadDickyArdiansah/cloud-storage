@@ -1,0 +1,66 @@
+.search-container {
+    position: relative;
+    width: 300px;
+}
+
+.search-container i {
+    position: absolute;
+    left: 10px;
+    /* Sesuaikan posisi ikon sesuai kebutuhan Anda */
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.form1 {
+    padding-left: 30px;
+    /* Sesuaikan padding agar teks input tidak bertabrakan dengan ikon */
+}
+
+.logo-image {
+    display: flex;
+    justify-content: center;
+    min-width: 45px;
+}
+
+.logo-image img {
+    width: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.navbar-vertical {
+    position: relative;
+    top: 3.5rem;
+    width: 250px;
+    height: calc(100vh);
+}
+
+.nav-menu-heading {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 1.75rem;
+    position: relative;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+
+    color: #9fa6bc;
+}
+
+.nav-list:hover {
+    color: #eff2f6;
+    background-color: #505667;
+}
+
+.col {
+    margin-left: 15.875rem;
+}
